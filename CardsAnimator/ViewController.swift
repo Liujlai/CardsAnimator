@@ -58,6 +58,7 @@ extension ViewController: UITableViewDataSource {
         -> CGFloat {
             return 60
     }
+    
 }
 
 extension ViewController: UICollectionViewDataSource {

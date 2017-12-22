@@ -122,6 +122,7 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D8v-9n-9Is">
                                 <rect key="frame" x="44" y="597" width="287" height="50"/>
@@ -180,55 +181,7 @@
                     <view key="view" contentMode="scaleToFill" id="SKa-XI-CEo">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="Ht1-UL-mJj">
-                                <rect key="frame" x="20" y="40" width="335" height="200"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C1R-Du-L0s">
-                                        <rect key="frame" x="0.0" y="0.0" width="165.5" height="200"/>
-                                        <color key="backgroundColor" red="0.1333333333" green="0.51372549020000002" blue="0.20592721459999999" alpha="0.5" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ukL-tJ-nCp">
-                                        <rect key="frame" x="169.5" y="0.0" width="165.5" height="200"/>
-                                        <color key="backgroundColor" red="0.1333333333" green="0.51372549020000002" blue="0.87450980389999999" alpha="0.62480743839999997" colorSpace="calibratedRGB"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="Rvd-5v-diZ"/>
-                                    <constraint firstItem="ukL-tJ-nCp" firstAttribute="width" secondItem="C1R-Du-L0s" secondAttribute="width" id="bEA-EY-Bzh"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="6bT-k8-JeW">
-                                <rect key="frame" x="20" y="260" width="335" height="400"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82t-e9-0tP">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="200"/>
-                                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSg-zh-5nb">
-                                        <rect key="frame" x="0.0" y="200" width="335" height="200"/>
-                                        <color key="backgroundColor" red="0.1333333333" green="0.51372549020000002" blue="0.87450980389999999" alpha="0.62480743839999997" colorSpace="calibratedRGB"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="OSg-zh-5nb" firstAttribute="height" secondItem="82t-e9-0tP" secondAttribute="height" id="03F-W9-nve"/>
-                                    <constraint firstAttribute="trailing" secondItem="OSg-zh-5nb" secondAttribute="trailing" id="8Yi-NT-KwD"/>
-                                    <constraint firstAttribute="height" constant="400" id="Cri-XY-spW"/>
-                                    <constraint firstItem="82t-e9-0tP" firstAttribute="leading" secondItem="6bT-k8-JeW" secondAttribute="leading" id="UiY-VS-ujf"/>
-                                    <constraint firstAttribute="trailing" secondItem="82t-e9-0tP" secondAttribute="trailing" id="vOQ-zr-sca"/>
-                                    <constraint firstItem="OSg-zh-5nb" firstAttribute="leading" secondItem="6bT-k8-JeW" secondAttribute="leading" id="wtj-PV-m0B"/>
-                                </constraints>
-                            </stackView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="erl-Lw-sBP" firstAttribute="trailing" secondItem="6bT-k8-JeW" secondAttribute="trailing" constant="20" id="2zq-gK-CR4"/>
-                            <constraint firstItem="erl-Lw-sBP" firstAttribute="trailing" secondItem="Ht1-UL-mJj" secondAttribute="trailing" constant="20" id="a9K-sc-dQL"/>
-                            <constraint firstItem="Ht1-UL-mJj" firstAttribute="leading" secondItem="erl-Lw-sBP" secondAttribute="leading" constant="20" id="bZn-XK-Jwc"/>
-                            <constraint firstItem="6bT-k8-JeW" firstAttribute="top" secondItem="Ht1-UL-mJj" secondAttribute="bottom" constant="20" id="dsr-kI-9cA"/>
-                            <constraint firstItem="Ht1-UL-mJj" firstAttribute="top" secondItem="erl-Lw-sBP" secondAttribute="top" constant="20" id="fs1-zZ-cqP"/>
-                            <constraint firstItem="6bT-k8-JeW" firstAttribute="leading" secondItem="erl-Lw-sBP" secondAttribute="leading" constant="20" id="ytf-F8-XL1"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="erl-Lw-sBP"/>
                     </view>
                 </viewController>
